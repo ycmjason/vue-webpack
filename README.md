@@ -1,4 +1,6 @@
-# webpack-simple
+# vue-webpack
+
+> forked from `vuejs-templates/webpack-simple` and added *vuex* and *vue-router*.
 
 > A simple Vue 2.0 Webpack & `vue-loader` setup for quick prototyping. Note this template is not suitable for production - for that you may want to wait for an official 2.0 webpack template.
 
@@ -10,7 +12,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack-simple my-project
+$ vue init ycmjason/vue-webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev
