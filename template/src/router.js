@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: require('@/App.vue') },
+  { path: '/', component: require('@/pages/Home.vue').default },
 ]
 
 export default new VueRouter({
